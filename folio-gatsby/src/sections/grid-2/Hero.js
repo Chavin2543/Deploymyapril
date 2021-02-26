@@ -38,11 +38,11 @@ const Hero = () => {
               color="heading"
               mb="40px"
             >
-              ONE STEP AHEAD TOWARDS SOLUTIONS
+              I'm Growing Up !!
             </Text>
 
             <Title variant="hero" mb="3rem">
-              DESIGN. CODE. LIVE!
+             ArchWork <br/> Junior
             </Title>
             <ButtonIcon
               onClick={(e) => {

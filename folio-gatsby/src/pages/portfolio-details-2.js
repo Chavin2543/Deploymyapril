@@ -23,9 +23,9 @@ const WorkSingle = () => {
             <Row className="justify-content-center text-center">
               <Col lg="8">
                 <Box>
-                  <Text variant="tag">BRANDING</Text>
+                  <Text variant="tag">Watch me grow</Text>
                   <Title className="my-4">
-                    Complete Branding <br /> Solution for DataTryper.
+                    My Educational Profile <br />
                   </Title>
                   <Text
                     variant="p"
@@ -33,11 +33,15 @@ const WorkSingle = () => {
                       max-width: 750px;
                     `}
                   >
-                    To satisfy our goal of creating a brand that could adapt
-                    across many use cases, we took the base form of their new
-                    logo and used it as an artboard. As long as the structural
-                    outline of the mark stayed consistent their brand was
-                    allowed to.
+                  Highschool - Assumption Convent School
+                  </Text>
+                  <Text
+                    variant="p"
+                    css={`
+                      max-width: 750px;
+                    `}
+                  >
+                  College - Chulalongkorn University
                   </Text>
                 </Box>
               </Col>
@@ -53,19 +57,18 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Client</Text>
+                <Text variant="tag">Status</Text>
                 <Title variant="cardBig" className="mt-3">
-                  DataTryper
+                  Currently Studying
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Time</Text>
+                <Text variant="tag">Year</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Oct 15, 2019
+                  Junior
                 </Title>
               </Col>
               <Col lg="4" className="d-flex justify-content-lg-end">
-                <Button arrowRight>Live work</Button>
               </Col>
             </Row>
           </Container>

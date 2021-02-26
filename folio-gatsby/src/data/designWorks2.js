@@ -6,78 +6,27 @@ import imgT5 from "../assets/image/jpg/dev/masonry/portfolio-mas-1.jpg";
 import imgT6 from "../assets/image/jpg/dev/regular/portfolio-4.jpg";
 import imgT7 from "../assets/image/jpg/dev/regular/portfolio-5.jpg";
 import imgT8 from "../assets/image/jpg/dev/regular/portfolio-6.jpg";
+import Chula from "../assets/image/jpg/details/details-2.jpg";
+import Loong from "../assets/image/jpg/portfolio-about.jpg";
 
 export const designWorks2 = [
   {
-    brand: `Perfumed`,
+    brand: `Educational Profile`,
     slug: `perfumed`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`branding`],
-    thumbnail: imgT1,
+    categories: [`Personal`],
+    thumbnail: Chula,
     halfWidth: false,
-  link : "/portfolio-details"
+  link : "/portfolio-details-2"
 },
   {
-    brand: `Travel App`,
+    brand: `My Boyfriend`,
     slug: `travel-app`,
     title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`photography`, `branding`],
-    thumbnail: imgT2,
+    categories: [`Personal`],
+    thumbnail: Loong,
     halfWidth: false,
-  link : "/portfolio-details"
+  link : "/devloper-2"
 },
-  {
-    brand: `Shopper`,
-    slug: `shopper`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`marketing`, `ux-design`, `branding`],
-    thumbnail: imgT3,
-    halfWidth: false,
-  link : "/portfolio-details"
-},
-  {
-    brand: `Candy Store`,
-    slug: `candy-store`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`branding`],
-    thumbnail: imgT4,
-    halfWidth: true,
-  link : "/portfolio-details"
-},
-  {
-    brand: `Travel App`,
-    slug: `travel-app`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`photography`, `branding`, `ux-design`],
-    thumbnail: imgT5,
-    halfWidth: true,
-  link : "/portfolio-details"
-},
-  {
-    brand: `Ice Cream`,
-    slug: `ice-cream`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`marketing`, `branding`],
-    thumbnail: imgT6,
-    halfWidth: false,
-  link : "/portfolio-details"
-},
-  {
-    brand: `Camera`,
-    slug: `Camera`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`branding`, `photography`],
-    thumbnail: imgT7,
-    halfWidth: false,
-  link : "/portfolio-details"
-},
-  {
-    brand: `Smart Watch`,
-    slug: `smart-watch`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`ux-design`, `branding`],
-    thumbnail: imgT8,
-    halfWidth: false,
-  link : "/portfolio-details"
-},
+ 
 ];

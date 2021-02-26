@@ -31,7 +31,7 @@ const Hero = () => {
             <Col lg="11" className="text-center">
               <Box mt={5}>
                 <Availability mb="2.5rem" />
-                <Title>I design digital crafts for my clients</Title>
+                <Title>Quality Architecture has been created !</Title>
 
                 <Box mt="52px">
                   <Link
@@ -41,7 +41,7 @@ const Hero = () => {
                     offset={-50}
                     duration={1000}
                   >
-                    <Button arrowRight>See My works </Button>
+                    <Button arrowRight>See all My works </Button>
                   </Link>
                 </Box>
               </Box>

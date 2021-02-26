@@ -31,7 +31,7 @@ const Hero = () => {
             <Col lg="7" className="text-center">
               <Box mt={5}>
                 <Availability mb="2.5rem" />
-                <Title variant="hero">Let's solve your design problems.</Title>
+                <Title variant="hero">Archwork<br/>Freshmen</Title>
 
                 <Box mt="52px">
                   <Link

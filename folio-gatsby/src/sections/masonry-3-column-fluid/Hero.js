@@ -31,11 +31,9 @@ const Hero = () => {
           <Row className="align-items-center">
             <Col lg="7">
               <Box mt={5}>
-                <Title>We solve your digital photography problem.</Title>
+                <Title>ArchWork <br/> Sophomore.</Title>
                 <Text pb="1.875rem" pt="1.25rem" color="heading">
-                  Looking for a group of photographers for your product
-                  promotion? <br />
-                  Our professional photographers are here to solve it.
+                 This is my second year work.
                 </Text>
                 <Box>
                   <ButtonIcon

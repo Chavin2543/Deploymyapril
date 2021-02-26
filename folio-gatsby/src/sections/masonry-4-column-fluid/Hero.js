@@ -37,12 +37,14 @@ const Hero = () => {
                   color="heading"
                   mb="40px"
                 >
-                  DEVELOPER FROM CALIFORNIA 💪
-                </Text>
-                <Title>
-                  Full stack web developer
+                  I'm going to graduate soon, recruit me?
                   <br />
                   for your next project
+                </Text>
+                <Title>
+                  ArchWork
+                  <br />
+                  Senior
                 </Title>
 
                 <Box mt="52px">

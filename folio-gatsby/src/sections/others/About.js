@@ -45,7 +45,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                   Engineer based on bangkok
                 </Text>
                 <Text color="light" className="mt-4">
-                  I strive for innovations and mechanisms
+                  I strive for innovations
                 </Text>
                 <div className="mt-4">
                   <Text color="light">Email me at</Text>

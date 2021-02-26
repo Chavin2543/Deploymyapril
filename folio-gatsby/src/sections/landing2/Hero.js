@@ -53,10 +53,10 @@ const Hero = () => {
                 letter-spacing: 1.63px;
               `}
             >
-              HI, I AM BRUCE RYAN
+              Hi, My Name is Ariya (Mae)
             </Title>
             <Title>
-              Full Stack UX Designer <br /> who loves nature!
+              Architecture CU <br /> who loves design!
             </Title>
           </Box>
         </Container>

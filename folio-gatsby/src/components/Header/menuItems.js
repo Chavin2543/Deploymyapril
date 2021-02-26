@@ -1,10 +1,11 @@
 export const menuItems = [
   {
-    name: "demos",
-    label: "About",
-    items: [
-      { name: "", label: "Ariya Ariyachotima" },
-    ],
+    name: "",
+    label: "Homepage",
+  },
+  {
+    name: "designer-2",
+    label: "Information",
   },
   {
     name: "pages",
@@ -24,7 +25,7 @@ export const menuItems = [
                 label: "Archwork - Sophomore",
               },
               {
-                name: "masonry-3-column",
+                name: "grid-2",
                 label: "Archwork - Junior",
               },
               {
