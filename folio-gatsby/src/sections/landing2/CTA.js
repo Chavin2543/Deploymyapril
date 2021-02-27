@@ -31,20 +31,20 @@ const Hero = () => {
                 >
                   <div className="d-flex flex-column flex-lg-row justify-content-center">
                     <LinkContact
-                      href="mailto:contact@folio.design"
+                      href="mailto:ariya9400@hotmail.com"
                       target="_blank"
                       className="mb-2 mb-lg-0"
                     >
-                      contact@folio.design
+                     ariya9400@hotmail.com
                     </LinkContact>
                     <span className="divider mx-2 mx-lg-4 d-none d-lg-block">
                       |
                     </span>
                     <LinkContact
-                      href="https://www.linkedin.com/folio"
+                      href="https://www.facebook.com/mae.ariyachotima"
                       target="_blank"
                     >
-                      linkedin.com/folio
+                      Facebook : Mae Ariyachotima
                     </LinkContact>
                   </div>
                 </Box>
