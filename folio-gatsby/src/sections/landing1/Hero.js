@@ -10,6 +10,12 @@ import imgL from "../../assets/image/png/portrait-1.png";
 
 const ImgRight = styled.img`
   max-width: 100%;
+  border-radius: 25%;
+  transition: 0.4s;
+  &:hover {
+    transform: scale(0.8) rotate(-16deg);
+    box-shadow: 0 32px 74px rgba(68, 77, 136, 0.2);
+  }
 `;
 
 const Hero = () => {
@@ -30,9 +36,16 @@ const Hero = () => {
                 >
                   Welcome
                 </Text>
-                <Title variant="hero">
-                  Mae , CU ARCH Junior
-                </Title>
+                <Title variant="hero">Ariya Ariyachotima</Title>
+                <Text pb="1.875rem" pt="1.25rem" color="heading">
+                 Currently studying in Chulalongkorn University.<br/>
+                 Faculty of Architecture<br/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;• Passionist<br/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;• Self-Driven<br/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;• Productive<br/>
+                 &nbsp;&nbsp;&nbsp;&nbsp;• Hard-Working<br/>
+                </Text>
+                <Title variant="hero"> 1st Anniversary</Title>
 
                 <Box mt="52px">
                   <Link
@@ -50,7 +63,7 @@ const Hero = () => {
             <Col lg="5" md="8" sm="9">
               <div className="text-center text-lg-right position-relative">
                 <div className="img-main">
-                  <ImgRight src={imgL} alt="" />
+                  <ImgRight src={imgL} alt="" className="img-fluid" />
                 </div>
               </div>
             </Col>

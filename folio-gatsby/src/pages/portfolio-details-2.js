@@ -27,14 +27,9 @@ const WorkSingle = () => {
                   <Title className="my-4">
                     My Educational Profile <br />
                   </Title>
-                  <Text
-                    variant="p"
-                    css={`
-                      max-width: 750px;
-                    `}
-                  >
-                  Highschool - Assumption Convent School
-                  </Text>
+                  <Title className="my-4">
+                    HighSchool - Assumption Convent School <br />
+                  </Title>
                   <Text
                     variant="p"
                     css={`
@@ -73,35 +68,10 @@ const WorkSingle = () => {
             </Row>
           </Container>
         </div>
-        <Section className="mt-lg-5 pb-0">
-          <Container>
-            <Row>
-              <Col xs="12" className="mb-5">
-                <img src={imgS1} alt="" className="img-fluid w-100" />
-              </Col>
-              <Col xs="12" className="mb-5">
-                <img src={imgS2} alt="" className="img-fluid w-100" />
-              </Col>
-              <Col lg="6" className="mb-5 mb-lg-0 pr-lg-4">
-                <img src={imgS3} alt="" className="img-fluid w-100" />
-              </Col>
-              <Col lg="6" className="mb-5 pl-lg-4">
-                <img src={imgS4} alt="" className="img-fluid w-100" />
-              </Col>
-            </Row>
-          </Container>
-        </Section>
+
 
         <Section bg="dark" className="pt-0">
           <Container>
-            <Row>
-              <Col xs="12" className="mb-5">
-                <img src={imgS5} alt="" className="img-fluid w-100" />
-              </Col>
-              <Col xs="12" className="mb-5">
-                <img src={imgS6} alt="" className="img-fluid w-100" />
-              </Col>
-            </Row>
 
             <div className="text-center mt-lg-5">
               <Text variant="tag" className="mb-1" color="lightShade">
@@ -113,7 +83,7 @@ const WorkSingle = () => {
                   className="border-0 bg-transparent shadow-none text-capitalize py-3"
                   css={`
                     font-weight: 700
-                    font-size: 1.5rem;
+                    font-size: 3rem;
                     letter-spacing: -1.2px;
                     line-height: 1.375;
                     @media ${device.md} {
@@ -121,7 +91,7 @@ const WorkSingle = () => {
                     }
                 `}
                 >
-                  Replace
+                  Line
                 </Button>
               </Link>
             </div>

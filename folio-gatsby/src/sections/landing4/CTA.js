@@ -31,7 +31,7 @@ const Hero = () => {
             <Col lg="11" xl="8">
               <Availability />
               <div className="text-center my-5">
-                <Title>Give your product a shape</Title>
+                <Title>Give your product a ideas</Title>
               </div>
               <div className="text-center">
                 <ButtonIcon

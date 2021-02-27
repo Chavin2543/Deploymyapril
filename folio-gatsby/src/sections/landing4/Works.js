@@ -72,7 +72,7 @@ const Works = () => {
             ))}
           </Grid>
           <Box pt="3rem" className="text-center">
-            <ButtonOutline>Load more works</ButtonOutline>
+            <ButtonOutline><a href="https://www.facebook.com/Chavin2543">Contact my girl</a></ButtonOutline>
           </Box>
         </Container>
       </Section>
