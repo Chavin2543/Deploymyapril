@@ -5,6 +5,8 @@ import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/landing1/Hero";
 import Works from "../sections/landing1/Works";
 import Contact from "../sections/landing1/Contact";
+import Gifts from "../sections/landing1/Gifts";
+
 
 const IndexPage = () => {
   return (
@@ -13,6 +15,9 @@ const IndexPage = () => {
         <Hero />
         <Element name="works">
           <Works />
+        </Element>
+        <Element name="gifts">
+          <Gifts/>
         </Element>
 
         <Contact />

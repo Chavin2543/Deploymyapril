@@ -69,6 +69,26 @@ const HeroTitle = styled(SectionTitle)`
     line-height: 84px;
   }
 `;
+const HeroTitleBig = styled(SectionTitle)`
+  letter-spacing: -2.81px;
+  font-size: 100px;
+  line-height: 56px;
+
+  @media ${device.sm} {
+    font-size: 100px;
+    line-height: 70px;
+  }
+
+  @media ${device.lg} {
+    font-size: 100px;
+    line-height: 84px;
+  }
+
+  @media ${device.xl} {
+    font-size: 100px;
+    line-height: 84px;
+  }
+`;
 
 const CardTitle = styled.h4`
   font-size: 1.3125rem;
@@ -133,6 +153,8 @@ const Title = ({ variant, ...rest }) => {
     case "secSm":
       TitleStyled = SectionSm;
       break;
+    case "herobig":
+      TitleStyled = HeroTitleBig;
     default:
       TitleStyled = SectionTitle;
   }

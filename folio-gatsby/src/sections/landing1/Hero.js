@@ -36,17 +36,23 @@ const Hero = () => {
                 >
                   Welcome
                 </Text>
-                <Title variant="hero">Ariya Ariyachotima</Title>
-                <Text pb="1.875rem" pt="1.25rem" color="heading">
-                 Currently studying in Chulalongkorn University.<br/>
-                 Faculty of Architecture<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;• Passionist<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;• Self-Driven<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;• Productive<br/>
-                 &nbsp;&nbsp;&nbsp;&nbsp;• Hard-Working<br/>
-                </Text>
-                <Title variant="hero"> 1st Anniversary</Title>
-
+                <Title variant="herobig">1 Days until</Title>
+                <Title variant="card">Ariya Ariyachotima</Title>
+                <Title variant="card" color="red">
+                  Birthday
+                </Title>
+                <Box mt="52px">
+                  <Link
+                    to="gifts"
+                    spy={true}
+                    smooth={true}
+                    offset={-50}
+                    duration={1000}
+                  >
+                    <Button arrowRight>Open My Gift!</Button>
+                  </Link>
+                </Box>
+                
                 <Box mt="52px">
                   <Link
                     to="works"
