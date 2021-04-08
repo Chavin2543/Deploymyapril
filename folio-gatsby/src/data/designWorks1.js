@@ -1,5 +1,5 @@
-import imgT1 from "../assets/image/jpg/agency/masonry/portfolio-mas-8.jpg";
-import imgT2 from "../assets/image/jpg/agency/masonry/portfolio-mas-7.jpg";
+import imgT1 from "../assets/image/jpg/agency/masonry/loong.jpg";
+import imgT2 from "../assets/image/jpg/agency/masonry/mae.jpg";
 import imgT3 from "../assets/image/jpg/agency/masonry/portfolio-mas-6.jpg";
 import imgT4 from "../assets/image/jpg/agency/masonry/portfolio-mas-5.jpg";
 import imgT5 from "../assets/image/jpg/agency/masonry/portfolio-mas-4.jpg";
@@ -16,11 +16,19 @@ import imgT14 from "../assets/image/jpg/agency/masonry/portfolio-mas-13.jpg";
 export const designWorks1 = [
 
   {
-    brand: `Chula Arch`,
-    slug: `coffee-cream`,
-    title: `Adaptable but Identifiable Product for Kandinsky.`,
-    categories: [`Chula`, `Design`],
-    thumbnail: imgT10,
+    brand: `From me`,
+    slug: `Let's see`,
+    title: `Gift from Loong.`,
+    categories: [`Loongy`, `Maeary`],
+    thumbnail: imgT1,
   link : "/portfolio-details"
+},
+{
+  brand: `To you`,
+  slug: `Let's see`,
+  title: `Gift from Loong.`,
+  categories: [`Loongy`, `Maeary`],
+  thumbnail: imgT2,
+link : "/portfolio-details"
 },
 ];

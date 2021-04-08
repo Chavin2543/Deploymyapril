@@ -48,52 +48,12 @@ const Works = () => {
                     filterBy("*");
                   }}
                 >
-                  Current Works
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "branding" ? "active" : null
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    filterBy("branding");
-                  }}
-                >
-                  Arch
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "ux-design" ? "active" : null
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    filterBy("ux-design");
-                  }}
-                >
-                  Blogger
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "photography" ? "active" : null
-                  }`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    filterBy("photography");
-                  }}
-                >
-                  Boyfriend
+                  This is your Birthday !
                 </a>
               </li>
             </ListNav>
           </Box>
         </Container>
-
         <Container fluid>
           <Masonry
             options={masonryOptions}
@@ -101,7 +61,7 @@ const Works = () => {
           >
             {items.map((item, index) => (
               <Col lg="3" md="4" sm="6" key={index} className="filtr-item">
-                <WorkCard workItem={item} mb="30px" link={item.link}/>
+                <WorkCard workItem={item} mb="30px" link={item.link} />
               </Col>
             ))}
           </Masonry>
